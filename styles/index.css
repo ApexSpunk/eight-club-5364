@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+/* Navbar Css */
+.banner {
+    background-color: #faf2f4;
+    display: flex;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.banner a {
+    color: #c2214c;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 0 20px rgb(15 48 106 / 10%);
+    background-color: white;
+    padding: 0 3%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.mobile-logo {
+    width: 35px;
+    transition: left 0.3s;
+    opacity: 0;
+}
+
+.logo {
+    width: 130px;
+    transition: left 0.3s;
+    position: relative;
+    left: -38px;
+}
+
+.menu .menu-div {
+    display: flex;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-links {
+    display: flex;
+    gap: 20px;
+    transition: 2s;
+    margin-top: 2px;
+    margin-left: -6%;
+}
+
+.menuAnim {
+    transition-timing-function: ease-in;
+    transition: 1s;
+    transform: translateX(-30%);
+    margin-left: 0%;
+}
+
+.menuAnim1 {
+    transition-timing-function: ease-out;
+    transition: 0.5s;
+    transform: translateX(0%);
+    margin-left: -6%;
+
+}
+
+.menu-logo {
+    margin-right: 30px;
+
+}
+
+Navbar {
+    position: sticky;
+    top: 0;
+    transition: top 0.3s;
+
+}
+
+Navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottom a:first-child {
+    border: 2px solid gray;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.bottom a:first-child:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.bottom a:nth-child(2) {
+    background-color: rgb(0, 123, 255);
+    padding: 7px 14px;
+    color: white;
+    border-radius: 10px;
+}
+
+.bottom a:nth-child(3) {
+    padding: 7px 0px;
+}
+
+.bottom a:nth-child(2):hover {
+    background-color: rgb(0, 99, 206);
+}
+
+.ham img {
+    height: 40px;
+}
+
+.ham {
+    display: none;
+}
+
+.ham1 img {
+    margin: 7px;
+    height: 25px;
+}
+
+.ham1 {
+    display: none;
+}
+
+.mobileMenu {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    display: grid;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.mobileMenu div {
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 100%;
+    font-size: 20px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+/* Navbar Ends */
+
+/* Content Start */
+.connect {
+    width: 100%;
+    background-color: #ebf7fc;
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+
+.connect>div {
+    width: 95%;
+    margin: 0 auto;
+    gap: 25px;
+    display: grid;
+    padding: 110px 0;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.connect>div>div a {
+    background-color: rgb(0, 123, 255);
+    padding: 7px 14px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.connect>div>div h1 {
+    width: 80%;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.connect>div>div p {
+    width: 88%;
+    font-size: 20px;
+    margin: 15px 0;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.connect>div>div:first-child {
+    padding: 20px;
+    margin-left: 30px;
+}
+
+video {
+    width: 100%;
+}
+
+.connect>div>div a:hover {
+    background-color: rgb(0, 99, 206);
+}
+
+.trusted {
+    background-color: #f2f4f7;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+
+.trusted div {
+    width: 85%;
+    display: flex;
+    margin: auto;
+    gap: 7%;
+}
+
+.trusted>div img {
+    width: 29%;
+    height: 35px;
+}
+
+.solutions {
+    width: 100%;
+    background-color: #fbfbfc;
+    padding: 96px 32px;
+    text-align: center;
+}
+
+.solutions>div {
+    width: 600px;
+    margin: auto;
+}
+
+.solutions h1 {
+    font-size: 55px;
+    background-color: #fbfbfc;
+    font-weight: 600;
+    line-height: 70px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.solutions p {
+    font-size: 22px;
+    margin: auto;
+}
+
+.unite h1 {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 50px;
+    margin: 14px 0;
+}
+
+.unite p {
+    margin-bottom: 50px;
+}
+
+.unite a {
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 127, 206);
+}
+
+.unite a h2 {
+    margin-top: -6px;
+
+}
+
+.unite>div:nth-child(even) {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 63% 33%;
+    width: 75%;
+    margin: auto;
+    gap: 4%;
+}
+
+.unite>div:nth-child(odd) {
+    display: grid;
+    grid-template-columns: 33% 63%;
+    width: 75%;
+    margin: auto;
+    gap: 4%;
+}
+
+.unite>div>div:first-child {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.unite {
+    background-color: #FAF2F4;
+    padding: 100px 0;
+}
+
+/* Content Ends */
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {
+    .bottom a:first-child {
+        display: none;
+    }
+
+    .menu-links {
+        gap: 15px;
+        font-size: 15px;
+    }
+
+    .bottom {
+        gap: 15px;
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .menu-links {
+        display: none;
+    }
+
+    .bottom a:first-child {
+        display: none;
+    }
+
+    .bottom a:nth-child(3) {
+        display: none;
+    }
+
+    .ham {
+        display: inherit;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .container {
+        width: 1370px;
+    }
+}
