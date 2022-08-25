@@ -26,6 +26,7 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .Free{
@@ -174,4 +175,191 @@ i{
     margin: auto;
     width: 90%;
     height: 20%;
+}
+#comparemain{
+    margin: auto;
+    width: 90%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.fandalamental{
+    width: 40%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+.Cfree{
+    width: 14%;
+    margin-top: 5%;
+    border-radius: 15px;
+    text-align: center;
+}
+.Cplus{
+    width: 14%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: rgb(248, 225, 175);
+    text-align: center;
+}
+.Cpro{
+    width: 14%;
+    border-radius: 15px;
+    background-color: rgb(193, 231, 219);
+    text-align: center;
+}
+.CEnterprise{
+    width: 14%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+    text-align: center;
+}
+.Mostp{
+    background-color: rgb(113, 113, 224);
+    height: 3%;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Mostp>p{
+    color: aliceblue;
+}
+.Col1{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: static;
+    text-align: center;
+    padding: 20px;
+}
+.Col1c{
+    text-align: left;
+    margin-top: 0%;
+}
+.Col2{
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding: 20px;
+    padding-top: 0%;
+}
+.Col2>button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 30px;
+    border: 1px solid  black;
+}
+.Col2>button:hover{
+    background-color: rgb(218, 218, 218);
+}
+#btns1{
+    background-color: rgb(113, 113, 224);
+    border: 1px solid  rgb(113, 113, 224);
+}
+#btns1:hover{
+    background-color: rgb(62, 62, 185);
+    border: 1px solid  rgb(62, 62, 185);
+}
+.Funda{
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: large;
+}
+.Col3,.Col4,.Col5,.Col6,.Col7,.Col8,.Col9,.Col10,.Col11{
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-bottom: 7%;
+}
+.Col3c,.Col4c,.Col5c,.Col6c,.Col7c,.Col8c,.Col9c,.Col10c,.Col11c{
+    margin-top: 20%;
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Col12,.Col14{
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.Col13c{
+    margin-top: 45%;
+}
+.Col15c{
+    margin-top: 30%;
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Col15cf{
+    margin-top: 160%;
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Col16{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.Col17c{
+    margin-top: 40%;
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.Col18{
+    margin-top: 3%;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.Col19{
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+    padding-bottom: 7%;
+}
+.Col20c{
+    margin-top: 30%;
+    font-size: large;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+#impot{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    text-align: justify;
+    margin-top: 1%;
+    font-size: small;
+}
+#additionalqna{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+#additionalqna>h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+#additionalqnainner{
+   width: 60%;
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+   margin: auto;
+   color: grey;
+}
+#additionalqnainner1{
+   width: 60%;
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+   margin: auto;
+   color: blue;
+   font-size: larger;
 }
