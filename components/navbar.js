@@ -16,9 +16,9 @@ function Navbar() {
                         alt="" class="logo">
                 </div>
                 <div class="menu-links">
-                    <a href="#">Product ></a>
+                    <a href="product.html">Product ></a>
                     <a href="#">Solution ></a>
-                    <a href="#">Pricing </a>
+                    <a href="Pricing.html">Pricing </a>
                     <a href="#">Enterprise ></a>
                     <a href="#">Resources ></a>
                 </div>
