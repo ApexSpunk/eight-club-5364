@@ -1,0 +1,66 @@
+#navbar {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+#mainbar>img {
+    width: 20%;
+    height: 8%;
+    border: 0px solid black;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+#mainbar>div {
+    cursor: pointer;
+}
+
+
+#mainbar>div:hover {
+    color: grey;
+
+}
+
+#mainbar {
+    display: flex;
+    justify-content: space-evenly;
+    border: 0px solid black;
+}
+
+#sidebar {
+    width: 150px;
+    height: 50%;
+    display: flex;
+    margin-right: 40px;
+    gap: 10px;
+}
+
+#sidebar>div {
+    display: flex;
+    border: 0px solid black;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#sidebar>div>img {
+    width: 30%;
+    height: 30%;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+#sidebar>div:nth-child(2)>img {
+    width: 100%;
+    height: 60%;
+    margin-left: 20px;
+}
+
+#sidebar>div:nth-child(3)>img {
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+}
