@@ -8,9 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="./styles/product.css" />
+        <link rel="stylesheet" href="./styles/index.css" />
 </head>
 
 <body>
+  <Header>
+
+  </Header>
     <div id="header" >
         <h1>Build a better way to work</h1>
         <h2>
@@ -116,11 +120,24 @@
            <a href="https://www.airtable.com/marketplace">Explore Marketplace</a>   
         </div>
         </div>
-
     </div>
+    <div id="signup_midbottom">
+      <div id="flex_signup_midbottom">
+         <h1>Get started with Airtable</h1>
+         <div>
+           <button>Sign up for free</button>
+         </div>
+      </div>
+   </div>
 </body>
 </html>
 
 <script src="./scripts/products.js" >
 
+</script>
+<script type="module">
+  import { Navbar, navbarScript } from './components/navbar.js'
+
+  document.querySelector('Header').innerHTML = Navbar()
+  navbarScript()
 </script>
