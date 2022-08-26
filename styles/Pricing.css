@@ -16,7 +16,7 @@
 }
 #heading{
     margin: auto;
-    width: 35%;
+    width: 40%;
     font-size: large;
     padding: 20px;
 }
@@ -32,20 +32,21 @@
 .Free{
     border: 1px solid rgb(206, 206, 206);
     width:24%;
-    margin-top: 5%;
+    margin-top: 7%;
     border-radius: 15px;
 }
 
 .Plus{
     border: 1px solid rgb(206, 206, 206);
     width: 24%;
-    margin-top: 5%;
+    margin-top: 7%;
     border-radius: 15px;
     background-color: rgb(248, 225, 175);
 }
 .Pro{
     border: 1px solid rgb(206, 206, 206);
     width:24%;
+    margin-top: 2%;
     border-radius: 15px;
     background-color: rgb(193, 231, 219);
 }
@@ -65,7 +66,7 @@
 .Enterprise{
     border: 1px solid rgb(206, 206, 206);
     width:24%;
-    margin-top: 5%;
+    margin-top: 7%;
     border-radius: 15px;
     background-color: rgb(51, 51, 51);
     color: aliceblue;
@@ -362,4 +363,69 @@ i{
    margin: auto;
    color: blue;
    font-size: larger;
+}
+.title{
+    font-size: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.questions-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.question{
+    border-bottom: 1px solid rgb(204, 202, 202);
+}
+.question button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border:none;
+    outline: none;
+    font-size: medium;
+    font-weight: bolder;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.question p{
+    font-size: bold;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.d-arrow{
+    transition: transform 0.5s ease-in ;
+}
+
+/*add this class when click*/
+.question p.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding:0px 15px 30px 15px;
+}
+.question button .d-arrow.rotate{
+    transform: rotate(180deg);
+}
+@media screen and (max-width: 900px) {
+    #heading{
+        margin: auto;
+        width: 60%;
+        font-size: large;
+        padding: 20px;
+    }
+    #main_price{
+        display: flow-root;
+    }
+    .Free,.Plus,.Pro,.Enterprise{
+        width:100%;
+    }
+    #comparemain,#tag_compare,#impot{
+        display: none;
+    }
 }

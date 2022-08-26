@@ -9,14 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/Pricing.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <div>
     <!-------------- navnar -->
-    </div>
+    <Header>
+
+    </Header>
     <!-------------- offer heading -->
     <div id="offer">
-        <h3>Sign up today and try the Pro plan for free</h3>
+        <h3>✨Sign up today and try the Pro plan for free</h3>
     </div>
     <!--------------- plan heading -->
     <div id="heading">
@@ -81,7 +83,7 @@
         <div class="Enterprise">
             <div class="col1">Enterprise</div>
             <div class="col2">For departments and organizations who have advanced customization, scale, security, control and support needs</div>
-            <div class="col3"><h1>Free</h1></div>
+            <div class="col3"><h1>Star</h1></div>
             <div class="col4" style="margin-top:41px ;"><button><a href="#">Contact Seller</a></button></div>
             <div class="col5" id="col5S">
                 <h4>Everything in Pro, plus:</h4>
@@ -255,5 +257,91 @@
                 </div>
             </div>
         </div>
+        <!-------- FAQ Section --------->
+        <div>
+            <h2 class="title">Frequently asked questions</h2>
+            <div class="questions-container">
+                <div class="question">
+                    <button>
+                        <span>How does Airtable's pricing work?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Airtable plans are charged per seat. If you are on Airtable’s Free plan, you can add viewers and commenters to your workspace for free. If you are on a paid Airtable plan, you will be charged for all collaborators who have edit or comment permissions to at least one base in the workspace. No charges will apply for read-only collaborators or people submitting forms. Charges are prorated: collaborators with edit permissions added partway through the month will only be charged for the days they were collaborators.</p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>How does Airtable's Enterprise pricing work?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Upgrades to Airtable Enterprise apply per account within an organization. You will be charged for all collaborators with edit, comment, or read access to at least one base in your organization. An organization has the ability to create unlimited workspaces and bases as part of the enterprise plan. Charges are prorated: collaborators with edit, comment, or read permissions added partway through the billing cycle will only be charged for the months they were collaborators. For more information on our Enterprise plans, contact sales.p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>Is Airtable free to use?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Airtable has multiple packages to help teams of all sizes orchestrate their work. Our Free plan is available to teams for no charge and provides the key building blocks to help you build your database. The Free plan is free forever and is formulated for small teams or those with lightweight needs. Our paid plans offer additional power and scale for teams as they grow and their needs get more complex.</p>
+                </div>
+        
+                <div class="question">
+                    <button>
+                        <span>How much does Airtable cost?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Our Free plan is available at no cost for teams just getting started. For teams who like the features of our Free plan but need more storage, our Plus plan is available for $10/user. Our Pro plan costs $20/user and includes the customization and team management features that fast moving teams and organizations need. Our Enterprise plan pricing is custom, based on the organization’s needs and scale with Airtable. To learn more about our Enterprise pricing, contact sales.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>What are my payment options?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>All payments are made via credit card for Plus and Pro workspaces. For Enterprise accounts, we can issue an annual invoice with payment via PO and/or ACH, wire, or check. Please contact sales for more information.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>What happens when I hit my usage limits?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>If you reach our record or attachment limits, you’ll still be able to use your bases. We’ll let you know about the overage, and give you a grace period to find a plan that fits your needs!</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>What's an Airtable base?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>A base is a collection of related tables, often reflecting a single project, process, or workflow that you collaborate on with your team. For example, you could make a base to organize your sales process, with tables for sales leads, companies, and deal opportunities. Each table contains records (similar to rows in a spreadsheet), which represent the individual objects, ideas, or people that you’re tracking. You’re free to create as many bases as you’d like on any of our plans.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>What is revision history?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Airtable provides powerful ways to go back in time with record-level revision history and base snapshots. View a living history of all the changes that have been made to a single record and jump back in time and restore your base to a previous state. We provide a limited history for free plans, with extended histories for our premium plans. When you upgrade and extend your history, you’ll see the history that was previously limited by your old plan’s limits.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>What are the per-base record and attachment limits?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>While we don’t limit the number of bases you can create, we do limit records and attachment space per base. On the Free plan, we limit the total number of records you can have across all tables in a base. We also limit the total amount of attachment space you can use in a base. You can increase these limits by upgrading to one of our premium plans.</p>
+                </div>
+                <div class="question">
+                    <button>
+                        <span>What are sync integrations?</span>
+                        <i class="fas fa-chevron-down d-arrow"></i>
+                    </button>
+                    <p>Sync integrations (previously known as external source sync) let you import data from external sources like Google Calendar, Zendesk, and Box into an Airtable base. Some external sources like Salesforce and Jira count as premium sync integrations and are only available as part of the Pro and Enterprise plans.</p>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
+<script src="./scripts/Pricing.js"></script>
+<script type="module">
+    import { Navbar, navbarScript } from './components/navbar.js'
+
+    document.querySelector('Header').innerHTML = Navbar()
+    navbarScript()
+</script>
