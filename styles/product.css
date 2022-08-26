@@ -1,5 +1,6 @@
 *{
  font-family: Poppins;    
+ 
 }
 #header{
     width:100vw;
@@ -335,6 +336,52 @@
     color: blue;
     text-decoration: none;
 } 
+#signup_midbottom{
+    width:100vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#flex_signup_midbottom{
+    width:80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#signup_midbottom button{
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#flex_signup_midbottom h1{
+    font-size: 40px;
+}
+#signup_midbottom{
+    width:100vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#flex_signup_midbottom{
+    width:80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#signup_midbottom button{
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#flex_signup_midbottom h1{
+    font-size: 40px;
+}
 
 
 
@@ -344,9 +391,12 @@
         display:flex;
         flex-direction: column;
     }
-    #iframe_div h1,h2{
-       width:80vw;
+    #iframe_div h1{
+       width:100%;
     }
+    #iframe_div h2{
+        width:100%;
+     }
     #ph_iframe{
         width:80vw;
     }
@@ -357,8 +407,8 @@
         width:80vw;
     }
    #description h1,h2,a{
-    width:100vw;
- }
+    width:100%;
+  }
  #photo_iframe{
     width:100vw;
     background-color:#e0e2e6
@@ -368,26 +418,26 @@
     flex-direction: column;
    }
   #interface_para h1 {
-    width:65vw;
+    width:100%;
    
   }
   #interface_para h2{
-    width:70vw;
+    width:100%;
   }
   #flex_accel h1{
      
-    width:60vw;
+    width:100%;
   }
   #flex_accel h2{
      
-    width:80vw;
+    width:100%;
   }
    #div_coloumnpara h1{
-    width:65vw;
+    width:100%;
    }
 
    #div_coloumnpara h2{
-    width:65vw;
+    width:100%;
    }
 
   #bring_flexdiv,#flexsuperpower_div{
@@ -395,16 +445,19 @@
     flex-direction: column;
    }
    #bring_paradiv h1,#superpower_para h1 {
-    width:85vw;
+    width:100%;
    
   }
 
   #bring_paradiv h2,#superpower_para h2 {
-    width:85vw;
+    width:100%;
    
   }
+  #bring_img,#superpower_img{
+    width:100%;
+  }
   #bring_img img,#superpower_img img{
-    width:80vw;
+    width:100%;
   }
 
  
