@@ -1,0 +1,117 @@
+#upper{
+    display:grid;
+    height:80px;
+    width:100%;
+    border:none;
+    justify-content:center; 
+    border-radius:10px;
+    background-color: rgba(220, 220, 220, 0.26);
+    
+}
+#upper>img{
+   width:20%;
+   margin-top:30px;
+   margin:auto;
+}
+#line{
+    margin-top:30px;
+    margin-left:18%;
+    
+}
+
+#box{
+    height:500px;
+    width:40%;
+    /* border:1px solid black; */
+
+    margin-left:18%;
+
+}
+#mobile{
+    height:50px;
+    width:80%;
+    font-size:17px;
+     border-radius:10px;  
+    /* border:none; */
+    background-color: rgba(220, 220, 220, 0.26);
+   
+   
+}
+#email{
+    height:50px;
+    width:80%;
+    font-size:17px;
+    border-radius:10px;
+    margin-top:10px;
+    background-color: rgba(220, 220, 220, 0.26);
+    /* border:none; */
+}
+#password{
+    height:50px;
+    width:80%;
+    font-size:17px;
+    border-radius:10px;
+    margin-top:10px;
+    background-color: rgba(220, 220, 220, 0.26);
+
+     /* border:none; */
+} 
+#buton{
+    
+    height:50px;
+    width:30%;
+    font-size:17px;
+    border-radius:10px;
+    margin-top:15px;
+   margin-left:150px;
+   background-color:rgb(1, 88, 220);
+   color:white;
+   /* border:none; */
+   border:none;
+}
+
+
+#little{
+    margin-top:-230px;
+    margin-left:18%;
+}
+#little>a>button{
+    height:40px;
+    width:40%;
+    font-size:17px;
+    border-radius:10px; 
+    border:none;
+    background-color:white;
+   
+}
+#little>a>button:hover{
+    background-color:rgba(220, 220, 220, 0.26);
+}
+#little>p{
+    font-size:12px; 
+    margin-left:60px;
+}
+
+#little>p2{
+   
+    margin-left:120px;
+    margin-top:100px;
+    font-size: 18px;
+}
+
+#end{
+    height:50px;
+    width:30%;
+    /* border:1px solid black; */
+    margin-left:18%;
+    margin-top:30px;
+    background-color:rgb(1, 88, 220) ;
+    color:white;
+    text-align: center;
+    font-size:17px;
+   
+}
+#end>p{
+ padding-top:15px;
+ 
+}
