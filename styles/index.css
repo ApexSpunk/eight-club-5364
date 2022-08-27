@@ -374,7 +374,7 @@ video {
     background-color: #6b1cb0;
 }
 
-.getStarted >div:nth-child(odd){
+.getStarted>div:nth-child(odd) {
     display: grid;
     grid-template-columns: 33% 63%;
     align-items: center;
@@ -382,7 +382,8 @@ video {
     margin: 100px auto;
     gap: 4%;
 }
-.getStarted >div:nth-child(even){
+
+.getStarted>div:nth-child(even) {
     display: grid;
     grid-template-columns: 63% 33%;
     align-items: center;
@@ -391,23 +392,23 @@ video {
     gap: 4%;
 }
 
-.getStarted >div h1{
+.getStarted>div h1 {
     font-size: 44px;
     font-weight: 500;
     line-height: 50px;
     margin: 14px 0;
 }
 
-.getStartText{
+.getStartText {
     font-size: 20px;
     margin: 25px 0;
 }
 
-.getStarted img{
+.getStarted img {
     width: 100%;
 }
 
-.getS{
+.getS {
     display: flex;
     justify-content: space-between;
     width: 70%;
@@ -418,29 +419,32 @@ video {
     font-size: 16px;
     gap: 20px;
 }
-.getS p{
+
+.getS p {
     border-bottom: 2px solid lightgray;
     width: 140px;
     cursor: pointer;
     color: lightgray;
 }
-.getS p:hover{
+
+.getS p:hover {
     border-bottom: 2px solid gray;
     color: black;
 }
 
-.getS+video+div{
-    display: grid;
-    grid-template-columns: 70% 30%;
-    margin: 15px 0;
-}
-.getS+img+div{
+.getS+video+div {
     display: grid;
     grid-template-columns: 70% 30%;
     margin: 15px 0;
 }
 
-.getS+video+div>div:last-child{
+.getS+img+div {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 15px 0;
+}
+
+.getS+video+div>div:last-child {
     border-radius: 8px;
     background-color: white;
     border: 2px solid gray;
@@ -450,7 +454,8 @@ video {
     align-items: center;
     margin: 0 20px;
 }
-.getS+img+div>div:last-child{
+
+.getS+img+div>div:last-child {
     border-radius: 8px;
     background-color: white;
     border: 2px solid gray;
@@ -460,12 +465,13 @@ video {
     align-items: center;
     margin: 0 20px;
 }
-.getS p:first-child{
+
+.getS p:first-child {
     border-bottom: 2px solid gray;
     color: black;
 }
 
-.trustedd>div> div{
+.trustedd>div>div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 75%;
@@ -474,42 +480,45 @@ video {
     align-items: center;
 }
 
-.trustmonial{
+.trustmonial {
     background-color: white;
     height: 99%;
     padding: 30px;
     margin-top: -5px;
 }
 
-.trustedd>div{
+.trustedd>div {
     width: 85%;
     margin: auto;
 }
-.trustmonial img{
+
+.trustmonial img {
     width: 180px !important;
     margin: 20px 0;
     margin-top: 60px;
-    
+
 }
 
-.trustmonial a{
+.trustmonial a {
     display: flex;
     text-decoration: none;
     margin-top: 25px;
 }
-.trustmonial a h2{
+
+.trustmonial a h2 {
     margin-top: -7px;
 }
 
-.indus a{
+.indus a {
     margin-top: 7px;
     text-decoration: none;
 }
-.indus a h2{
+
+.indus a h2 {
     margin-top: -10px;
 }
 
-.indus div:first-child h2:first-child{
+.indus div:first-child h2:first-child {
     font-size: 38px;
     font-weight: 500;
     line-height: 50px;
@@ -517,7 +526,7 @@ video {
 }
 
 
-.indus{
+.indus {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
@@ -527,25 +536,25 @@ video {
     text-align: center;
 }
 
-.trustmonial h3{
+.trustmonial h3 {
     font-weight: 500;
 }
 
-.trustmonial h4{
+.trustmonial h4 {
     margin-top: 50px;
 }
 
-.trustedd{
-    background-color: #faf5e8 ;
+.trustedd {
+    background-color: #faf5e8;
     margin: 60px 0;
     padding: 100px 0;
 }
 
-.trustedd>div img{
+.trustedd>div img {
     width: 100%;
 }
 
-.createAcc a{
+.createAcc a {
     background-color: rgb(0, 123, 255);
     padding: 10px 20px;
     color: white;
@@ -553,12 +562,13 @@ video {
     text-decoration: none;
 }
 
-.lastPart{
+.lastPart {
     width: 60%;
     margin: 100px auto;
     text-align: center;
 }
-.lastPart h1{
+
+.lastPart h1 {
     width: 80%;
     text-align: center;
     margin: auto;
@@ -567,9 +577,80 @@ video {
     line-height: 60px;
 }
 
-.createAcc{
+.createAcc {
     text-align: center;
     margin: 20px 0;
+}
+
+.footer {
+    display: grid;
+    width: 92%;
+    margin: auto;
+}
+
+.footer p{
+    cursor: pointer;
+}
+
+.footerFirst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerFirst img:first-child {
+    height: 30px;
+}
+
+.footerFirst img:last-child {
+    height: 40px;
+}
+
+.footerFirstMenu {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footerLastMenu {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.footerSecond {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.footerSecond p:first-child{
+    font-weight: 500;
+    margin: 5px 0;
+}
+.footerSecond p{
+    margin: 10px 0;
+}
+
+.footerThird{
+    background-color: #f2f4f7;
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.footerThird img{
+    height:  60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Content Ends */
