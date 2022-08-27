@@ -1,0 +1,117 @@
+
+        #upper{
+        display:grid;
+        height:80px;
+        width:100%;
+        border:none;
+        justify-content:center; 
+        border-radius:10px;
+        background-color: rgba(220, 220, 220, 0.26);
+        
+    }
+    #upper>img{
+       width:20%;
+       margin-top:30px;
+       margin:auto;
+    }
+    #nav{
+        display:grid;
+        height:80px;
+        width:100%;
+        /* border:1px solid black; */
+        display:flex;
+        justify-content: space-between;
+        margin-top:50px;
+        margin-left:18%;
+      
+    }
+    #nav>h1{
+       
+    }
+    #nav>a{
+        margin-right:700px;
+        font-size:20px;
+    }
+
+    #box{
+        height:500px;
+        width:40%;
+        /* border:1px solid black; */
+    
+        margin-left:18%;
+    
+    }
+    
+       
+    
+    #email{
+        height:50px;
+        width:80%;
+        font-size:17px;
+        border-radius:10px;
+        margin-top:10px;
+        background-color: rgba(220, 220, 220, 0.26);
+        /* border:none; */
+    }
+    #password{
+        height:50px;
+        width:80%;
+        font-size:17px;
+        border-radius:10px;
+        margin-top:10px;
+        background-color: rgba(220, 220, 220, 0.26);
+    
+         /* border:none; */
+    } 
+    #buton{
+        
+        height:50px;
+        width:30%;
+        font-size:17px;
+        border-radius:10px;
+        margin-top:15px;
+       margin-left:150px;
+       background-color:rgb(1, 88, 220);
+       color:white;
+       /* border:none; */
+       border:none;
+    }
+
+
+    #little{
+        margin-top:-230px;
+        margin-left:18%;
+    }
+    #little>a>button{
+        height:40px;
+        width:40%;
+        font-size:17px;
+        border-radius:10px; 
+        border:none;
+        background-color:white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+       
+    }
+    #little>button:hover{
+        background-color:rgba(220, 220, 220, 0.26);
+    }
+
+    #little2{
+        /* margin-top:-230px; */
+        margin-left:18%;
+        margin-top:20px;
+    }
+
+    #little2>a>button{
+        height:40px;
+        width:40%;
+        font-size:17px;
+        border-radius:10px; 
+        border:none;
+        background-color:white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+       
+    }
+    #little2>button:hover{
+        background-color:rgba(220, 220, 220, 0.26);
+    }
