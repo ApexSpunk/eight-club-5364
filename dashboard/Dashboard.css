@@ -1,0 +1,277 @@
+#parent {
+    display: flex;
+    gap: 60px;
+    padding-top: 5px;
+}
+
+#parent>div:first-child {
+    width: 350px;
+    height: fit-content;
+    border: 0px solid black;
+}
+
+#blue_box {
+    background-color: #d0f0fd;
+    width: 90%;
+    height: 330px;
+    border-radius: 6px;
+    margin: 0px 40px 30px 20px;
+    padding-left: 20px;
+    padding-top: -20px;
+    font-size: x-small;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+    border: 0px solid black;
+}
+
+#upgrade_box>li {
+    display: flex;
+    list-style: none;
+    margin: 10px 40px 10px -15px;
+    align-self: flex-start;
+}
+
+#upgrade_box li::before {
+    content: "\2713\0020";
+    margin-right: 10px;
+}
+
+#btn {
+    background: linear-gradient(95.99deg, rgb(0, 88, 219) 16.4%, rgb(158, 0, 255) 100.83%);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 0px 5px 0px 180px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500px;
+    color: white;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+#main_search {
+    display: flex;
+}
+
+#search_bar {
+    width: fit-content;
+    background-color: whitesmoke;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    margin-top: -20px;
+    margin-left: 20px;
+    border: 0px solid black;
+
+}
+
+#search_bar input {
+    background: transparent;
+    flex: 1;
+    border: 0px solid black;
+    outline: none;
+    padding: 10px 10px;
+    width: 200px;
+    font-size: 20;
+}
+
+#search_bar img {
+    width: 15px;
+    height: 15px;
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+.search_list img {
+    width: 20px;
+    height: 20px;
+    border: 0px solid black;
+    border-radius: 60px;
+    padding: 10px 0px;
+    margin-top: -40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#interfaces {
+    margin: 10px 0px 10px 20px;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    border: 0px solid black;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#interfaces:hover {
+    background-color: whitesmoke;
+}
+
+#interfaces img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 20px 10px 20px 20px;
+}
+
+#workspace>h3 {
+    opacity: 0.3;
+    margin-left: 30px;
+}
+
+#workspace_dad {
+    width: 350px;
+    height: 100px;
+    overflow-y: scroll;
+    font-size: small;
+    margin-left: 20px;
+}
+
+#learn {
+    margin-left: 10px;
+    font-size: medium;
+}
+
+/* right side */
+
+#main_interface {
+    border: 0px solid black;
+    font-family: 'GT Eesti Display', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+    margin-bottom: 10px;
+}
+
+#interface_div {
+    display: flex;
+    gap: 20px;
+    background-color: #ffeab6;
+    height: 118px;
+    border-radius: 8px;
+}
+
+#interface_div>div {
+    border: 0px solid black;
+    font-size: small;
+}
+
+#interface_div>div:nth-child(2) {
+    width: 50%;
+}
+
+#interface_div>div:nth-child(3) {
+    padding-top: 5%;
+}
+
+#interface_div>div:nth-child(3)>button {
+    background-color: #2d7ff9;
+    font-weight: 500;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+    height: 32px;
+}
+
+#workspace_nav {
+    display: flex;
+    border: 0px solid black;
+    justify-content: space-between;
+}
+
+#workspace_nav>h1>img {
+    width: 25px;
+    height: 25px;
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+#workspace_nav>div>button {
+    background-color: #20c933;
+    color: white;
+    border: 0px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#workspace_nav>div {
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#options_pop {
+    display: flex;
+    gap: 20px;
+    border: 0px solid black;
+    width: 55%;
+    height: 3%;
+}
+
+#options_pop>button {
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: 0px solid black;
+    width: 100px;
+    height: 30px;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+#options_pop>button:hover {
+    background-color: rgb(218, 217, 217);
+}
+
+#options_pop>button>img {
+    width: 20%;
+    height: 70%;
+}
+
+#add_a_workspace {
+    width: 82px;
+    height: 82px;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 15px 10px 15px 15px;
+    cursor: pointer;
+}
+
+#added_workspace {
+    width: 82px;
+    height: 82px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 15px 10px 15px 15px;
+    cursor: pointer;
+}
+
+#Workspace_div {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#sec_child {
+    overflow-y: scroll;
+}
+
+#final_work>span {
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+#final_work:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    height: 40px;
 }
 
 #mainbar>img {
@@ -47,20 +47,22 @@
 }
 
 #sidebar>div>img {
-    width: 30%;
-    height: 30%;
+    width: 100%;
+    height: 100%;
     margin-left: 7px;
     cursor: pointer;
 }
 
 #sidebar>div:nth-child(2)>img {
     width: 100%;
-    height: 60%;
+    height: 100%;
     margin-left: 20px;
 }
 
-#sidebar>div:nth-child(3)>img {
-    width: 80%;
-    height: 80%;
+#profile_pic {
+    width: 30px;
+    height: 30px;
     border-radius: 30px;
+    margin-left: 7px;
+    cursor: pointer;
 }
