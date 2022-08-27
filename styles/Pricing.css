@@ -387,7 +387,7 @@ i{
     border:none;
     outline: none;
     font-size: medium;
-    font-weight: bolder;
+    font-weight: normal;
     font-family: sans-serif;
     cursor: pointer;
 }
