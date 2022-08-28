@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <!-------------- navnar -->
+    <!-------------- navbar -->
     <Header>
 
     </Header>
@@ -31,7 +31,7 @@
             <div class="col1">Free</div>
             <div class="col2">For individuals or very small teams just getting started with Airtable</div>
             <div class="col3" style="margin-top:40px;"><h1>Free</h1></div>
-            <div class="col4" style="margin-top:45px ;"><button><a href="#">Sign up</a></button></div>
+            <div class="col4" style="margin-top:45px ;"><button><a href="./Day-5/signup.html">Sign up</a></button></div>
             <div class="col5">
                 <h4>Free includes:</h4>
                 <p><i class="fa-solid fa-check"></i> Unlimited bases</p>
@@ -48,7 +48,7 @@
             <div class="col2">For teams looking to create a single source of truth to manage their workflows and processes</div>
             <div class="col3" style="margin-top:22px;" ><h1>$10</h1><p>per seat /month billed annually</p></div>
             <h3>$12 billed monthly</h3>
-            <div class="col4"><button><a href="#">Try for free</a></button></div>
+            <div class="col4"><button><a href="./Day-5/signup.html">Try for free</a></button></div>
             <div class="col5">
                 <h4>Everything in Free, plus:</h4>
                 <p><i class="fa-solid fa-check"></i> 3 extensions per base</p>
@@ -66,7 +66,7 @@
             <div class="col2">For teams and companies who need to create workflows & extensions to run their most important processes across their orgs</div>
             <div class="col3"><h1>$20</h1><p>per seat /month billed annually</p></div>
             <h3>$24 billed monthly</h3>
-            <div class="col4"><button id="btns"><a href="#" style="color:aliceblue">Try for free</a></button></div>
+            <div class="col4"><button id="btns"><a href="./Day-5/signup.html" style="color:aliceblue">Try for free</a></button></div>
             <div class="col5">
                 <h4>Everything in Plus, plus:</h4>
                 <p><i class="fa-solid fa-check"></i> 10 extensions per base</p>
@@ -84,7 +84,7 @@
             <div class="col1">Enterprise</div>
             <div class="col2">For departments and organizations who have advanced customization, scale, security, control and support needs</div>
             <div class="col3"><h1>Star</h1></div>
-            <div class="col4" style="margin-top:41px ;"><button><a href="#">Contact Seller</a></button></div>
+            <div class="col4" style="margin-top:41px ;"><button><a href="./Day-5/signup.html">Contact Seller</a></button></div>
             <div class="col5" id="col5S">
                 <h4>Everything in Pro, plus:</h4>
                 <p><i class="fa-solid fa-check"></i> Unlimited workspaces per organization</p>
@@ -149,7 +149,7 @@
         </div>
         <div class="Cfree">
             <div class="Col1">Free</div>
-            <div class="Col2"><button><a href="#">Sign up</a></button></div>
+            <div class="Col2"><button><a href="./Day-5/signup.html">Sign up</a></button></div>
             <div class="Col3c">Unlimited</div>
             <div class="Col4c">5</div>
             <div class="Col5c">1,200</div>
@@ -168,7 +168,7 @@
         </div>
         <div class="Cplus">
             <div class="Col1">Plus</div>
-            <div class="Col2"><button><a href="#">Try for free</a></button></div>
+            <div class="Col2"><button><a href="./Day-5/signup.html">Try for free</a></button></div>
             <div class="Col3c">Unlimited</div>
             <div class="Col4c">Unlimited</div>
             <div class="Col5c">5,000</div>
@@ -188,7 +188,7 @@
         <div class="Cpro">
             <div class="Mostp"><p>Most popular</p></div>
             <div class="Col1">Pro</div>
-            <div class="Col2"><button id="btns1"><a href="#" style="color:white;">Try for free</a></button></div>
+            <div class="Col2"><button id="btns1"><a href="./Day-5/signup.html" style="color:white;">Try for free</a></button></div>
             <div class="Col3c">Unlimited</div>
             <div class="Col4c">Unlimited</div>
             <div class="Col5c">50,000</div>
@@ -211,7 +211,7 @@
         </div>
         <div class="CEnterprise">
             <div class="Col1">Enterprise</div>
-            <div class="Col2"><button><a href="#">Contact Sales</a></button></div>
+            <div class="Col2"><button><a href="./Day-5/signup.html">Contact Sales</a></button></div>
             <div class="Col3c">Unlimited</div>
             <div class="Col4c">Unlimited</div>
             <div class="Col5c">250,000</div>
@@ -341,7 +341,9 @@
 <script src="./scripts/Pricing.js"></script>
 <script type="module">
     import { Navbar, navbarScript } from './components/navbar.js'
+    import Footer  from './components/footer.js'
 
     document.querySelector('Header').innerHTML = Navbar()
+    document.querySelector('Footer').innerHTML = Footer()
     navbarScript()
 </script>
