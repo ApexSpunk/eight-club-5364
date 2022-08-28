@@ -588,7 +588,7 @@ video {
     margin: auto;
 }
 
-.footer p{
+.footer p {
     cursor: pointer;
 }
 
@@ -621,6 +621,7 @@ video {
     align-items: center;
     font-weight: 500;
 }
+
 .footerSecond {
     display: flex;
     justify-content: space-between;
@@ -629,15 +630,16 @@ video {
     margin-bottom: 40px;
 }
 
-.footerSecond p:first-child{
+.footerSecond p:first-child {
     font-weight: 500;
     margin: 5px 0;
 }
-.footerSecond p{
+
+.footerSecond p {
     margin: 10px 0;
 }
 
-.footerThird{
+.footerThird {
     background-color: #f2f4f7;
     padding: 0 4%;
     display: flex;
@@ -646,8 +648,8 @@ video {
 }
 
 
-.footerThird img{
-    height:  60px;
+.footerThird img {
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
