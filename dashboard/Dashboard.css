@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,14 +33,15 @@
 
 
 
-#blue_box h2{
+#blue_box h2 {
     font-size: 16px;
 }
-#blue_box p{
+
+#blue_box p {
     font-size: 13px;
 }
 
-#blue_box>div{
+#blue_box>div {
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -89,7 +90,7 @@
     padding: 10px;
     width: 100%;
     font-size: 16px;
-    
+
 }
 
 #search_bar img {
@@ -147,7 +148,7 @@
     margin-left: 20px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: hidden;
 }
 
@@ -174,7 +175,8 @@
     align-items: center;
     padding-right: 30px;
 }
-#interface_div img{
+
+#interface_div img {
     margin-top: 5px;
     border-radius: 10px 0px 0px 10px;
 }
@@ -236,7 +238,7 @@
     gap: 20px;
     border: 0px solid black;
     margin-top: 10px;
-    
+
 }
 
 #options_pop>button {
@@ -307,4 +309,22 @@
 #final_work:hover {
     opacity: 0.5;
     cursor: pointer;
+}
+
+#profile_div {
+    position: absolute;
+    right: 30px;
+    float: right;
+    display: grid;
+    border: 1px solid black;
+    justify-self: end;
+    font-size: smaller;
+    background-color: white;
+    line-height: 20px;
+    width: 300px;
+    padding: 20px;
+}
+
+#profile_div>div>img {
+    margin-left: -20px;
 }
