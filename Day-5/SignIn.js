@@ -16,6 +16,7 @@ form.addEventListener("submit",function(event){
         flag =true;
         alert("Signin Sucessfully")
          window.location.href="../dashboard/Dashboard.html"
+         localStorage.setItem('isLogged', JSON.stringify(ele))
     }
 
     })

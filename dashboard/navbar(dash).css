@@ -1,9 +1,9 @@
 #navbar {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 1px 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
+    height: 60px;
 }
 
 #mainbar>img {
@@ -12,8 +12,8 @@
     border: 0px solid black;
     margin-top: 14px;
     cursor: pointer;
+   margin-top: -5px;
 }
-
 #mainbar>div {
     cursor: pointer;
 }
@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-evenly;
     border: 0px solid black;
+    align-items: center;
 }
 
 #sidebar {
