@@ -364,6 +364,7 @@ i{
    color: blue;
    font-size: larger;
 }
+/* FAQ SECTION */
 .title{
     font-size: bold;
     text-align: center;
@@ -387,7 +388,7 @@ i{
     border:none;
     outline: none;
     font-size: medium;
-    font-weight: bolder;
+    font-weight: 600;
     font-family: sans-serif;
     cursor: pointer;
 }
