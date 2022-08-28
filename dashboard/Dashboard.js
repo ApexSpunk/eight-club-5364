@@ -6,6 +6,10 @@ function addIt() {
     let workspace = document.getElementById('workspace')
 
     let givenName = window.prompt('Enter WorkSpace Name')
+    if(givenName == ""){
+        window.prompt('Please Enter WorkSpace Name')
+        return;
+    }
     givenName = givenName.split(' ')
     let workSpaceName = ""
     for (let i = 0; i < givenName.length; i++) {

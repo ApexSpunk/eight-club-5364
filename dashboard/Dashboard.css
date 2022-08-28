@@ -149,7 +149,7 @@
 }
 
 ::-webkit-scrollbar {
-    display: hidden;
+    display: none;
 }
 
 #learn {
@@ -298,6 +298,7 @@
 
 #sec_child {
     overflow-y: scroll;
+    height: 95vh;
 }
 
 #final_work>span {
