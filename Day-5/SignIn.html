@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="./Styles/SignIn.css"/> 
-    
-       </style> 
+    <link rel="stylesheet" href="./Styles/SignIn.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    </style>
 </head>
+
 <body>
-    <div id="upper">
-        <img src="https://cdn.worldvectorlogo.com/logos/airtable-1.svg"/>
+    <div class="signIn">
+        <div>
+            <div id="upper">
+                <img src="https://cdn.worldvectorlogo.com/logos/airtable-1.svg" />
 
-    </div>
+            </div>
 
-    <div id="nav">
-        <h1>Sign In</h1>
-        <a href="signup.html"><p>or create an account</p></a>
-    </div>
 
-    <div id="box">
-        <form>
-        
-        <input  type="text" id="email" placeholder="Enter your email id"/>
-        <input  type="number" id="password" placeholder="Create your password"/>
-        <input  type="submit" id="buton" value="Sign In"/>
-        
-        </form>
-      </div>
+            <div class="sBody">
+                <div id="nav">
+                    <h1>Sign In</h1>
+                    <a href="signup.html">
+                        <p>or create an account</p>
+                    </a>
+                </div>
+                <div id="box">
+                    <form>
+                        <div>
+                            <label>Email</label>
+                            <input type="text" id="email" placeholder="Enter your email id" />
+                        </div>
+                        <div>
+                            <label>Password</label>
+                            <input type="number" id="password" placeholder="Create your password" />
+                        </div>
+                        <div>
+                            <span>Forgot Password?</span>
+                        </div>
+                        <div>
+                            <button type="submit">SignIn</button>
+                        </div>
+                    </form>
+                </div>
 
-      <div id="little">
-        
-        <a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp"><button>Sign up with Google</button></a>
-        <!-- <button>Sign up with Google</button> -->
-        
-    </div>
-    <div id="little2">
-        <a href="https://airtable.com/sso/login"><button>Sign In With Single Sign On</button></a>
+                <div id="little">
+                    <hr>
+                    <div>
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/google-160-189824.png" alt="">
+                        <a href="https://accounts.google.com/signup/v2/webcreateaccount"><button>Sign up with
+                                Google</button></a>
+                    </div>
+                    <div>
+                        <a href="https://airtable.com/sso/login"><button>Sign In With Single Sign On</button></a>
+                    </div>
+                </div>
+                <div class="apple">
+                    <a href="#" >SignIn With Apple</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
 <script src="SignIn.js"></script>

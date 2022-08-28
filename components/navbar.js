@@ -9,12 +9,14 @@ function Navbar() {
         </div>
         <div class="menu">
             <div class="menu-div">
-                <div class="menu-logo">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/airtable-1482122-1254387.png" alt=""
-                        class="mobile-logo" />
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Airtable_Logo.svg/1200px-Airtable_Logo.svg.png"
-                        alt="" class="logo">
-                </div>
+                <a href='index.html'>
+                    <div class="menu-logo">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/airtable-1482122-1254387.png" alt=""
+                            class="mobile-logo" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Airtable_Logo.svg/1200px-Airtable_Logo.svg.png"
+                            alt="" class="logo">
+                    </div>
+                </a>
                 <div class="menu-links">
                     <a href="product.html">Product ></a>
                     <a href="#">Solution ></a>
@@ -25,8 +27,8 @@ function Navbar() {
             </div>
             <div class="bottom">
                 <a href="#">Contact Sales</a>
-                <a href="#">Sign up for free</a>
-                <a href="#">Sign In</a>
+                <a href="Day-5/signup.html">Sign up for free</a>
+                <a href="Day-5/SignIn.html">Sign In</a>
                 <div class="ham" id='ham'>
                     <img src="https://static.thenounproject.com/png/1614628-200.png" alt="">
                 </div>
