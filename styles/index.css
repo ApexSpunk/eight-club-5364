@@ -693,11 +693,101 @@ video {
     .ham {
         display: inherit;
     }
+
+    .connect>div {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 50px 0;
+    }
+
+    .connect>div>div:first-child {
+        padding: 0;
+    }
+
+    .unite>div:nth-child(odd) {
+        grid-template-columns: 1fr;
+    }
+
+    .unite>div:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .uniteMiddle {
+        padding: 30px 0;
+    }
+
+    .unite>div:nth-child(3) h1 {
+        width: 90%;
+        line-height: 70px;
+    }
+
+    .getStarted>div:nth-child(odd) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .getStarted>div:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .getS+video {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .getS+img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .trustedd>div>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .getS+video+div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .getS+img+div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
 }
 
 
-@media screen and (min-width: 600px) {
-    .container {
-        width: 1370px;
+@media screen and (max-width: 600px) {
+
+    .solutions>div {
+        width: 100%;
+    }
+
+    .trusted>div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .trusted>div img {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .trusted {
+        height: 250px;
+        padding: 10px 0;
+    }
+
+    .unite>div:nth-child(3) h1 {
+        width: 100%;
+        line-height: 70px;
     }
 }
