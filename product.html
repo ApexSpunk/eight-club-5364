@@ -125,19 +125,28 @@
       <div id="flex_signup_midbottom">
          <h1>Get started with Airtable</h1>
          <div>
-           <button>Sign up for free</button>
+           <button onclick="signupfun()" >Sign up for free</button>
          </div>
       </div>
    </div>
+   <footer>
+
+   </footer>
 </body>
 </html>
 
 <script src="./scripts/products.js" >
 
+
 </script>
 <script type="module">
   import { Navbar, navbarScript } from './components/navbar.js'
+  import Footer from './components/footer.js'
 
   document.querySelector('Header').innerHTML = Navbar()
+  document.querySelector('footer').innerHTML = Footer()
   navbarScript()
+
+
+
 </script>
