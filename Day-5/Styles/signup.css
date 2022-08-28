@@ -67,6 +67,8 @@ form button{
     height: 100vh;
     display: grid;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 

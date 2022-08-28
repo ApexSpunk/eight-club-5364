@@ -5,6 +5,13 @@ function addIt() {
     click++;
     let workspace = document.getElementById('workspace')
 
+    let givenName = window.prompt('Enter WorkSpace Name')
+    givenName = givenName.split(' ')
+    let workSpaceName = ""
+    for (let i = 0; i < givenName.length; i++) {
+        workSpaceName += givenName[i][0]
+    }
+
     let div = document.createElement('div')
     div.setAttribute('id', "interfaces")
 
@@ -12,7 +19,7 @@ function addIt() {
     icon.src = 'data:image/png;base64,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'
 
     let text = document.createElement('p')
-    text.innerText = `My ${click} Workspace`
+    text.innerText = `My ${givenName} Workspace`
 
     div.append(icon, text)
     workspace.append(div)
@@ -25,7 +32,8 @@ function addIt() {
     console.log('realdiv:', realdiv.style.backgroundColor)
 
     let intext = document.createElement('p')
-    intext.innerText = 'Un'
+
+    intext.innerText = workSpaceName
 
     realdiv.append(intext)
     Workspace_div.append(realdiv)
