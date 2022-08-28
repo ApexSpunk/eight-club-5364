@@ -15,7 +15,7 @@ form.addEventListener("submit",function(event){
     if(ele.email ===obj.email && ele.password ===obj.password){
         flag =true;
         alert("Signin Sucessfully")
-         window.location.href="../dashboard.html"
+         window.location.href="../dashboard/Dashboard.html"
     }
 
     })
